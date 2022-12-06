@@ -2,7 +2,7 @@ import React from "react";
 import Button from "@mui/material/Button";
 
 interface Props {
-  value: "small" | "medium";
+  value: string;
   size: "small" | "medium" | "large" | undefined;
   handleClick: Function;
 }
